@@ -1,15 +1,13 @@
 | slug | title | date |
 |-----------------|----------------------------|-----------------|
-| /2025-06-17 | Release 2 | 2025-06-17 |
+| /2025-06-17 | Release 3 | 2025-06-17 |
 
-- New apologize function added to greeting-lib, allowing you to generate polite apology messages
-- Customize your apologies by providing a name parameter for personalized responses
-- Seamlessly integrate this feature with existing greeting functionality
-- Perfect for applications that need to communicate regret or acknowledgment of errors to users
-- New congratulatory greeting function that allows you to easily generate congratulation messages for your users
-  - Expands the library's capabilities beyond standard salutations
-  - Simplifies the process of creating positive acknowledgments for achievements and special occasions
-- Added new welcome function to the greeting library
-  - Allows developers to create personalized welcome messages for users
-  - Complements existing greeting capabilities with specific welcome-oriented messaging
-  - Available in the latest version of the greeting-lib TypeScript library
+- New `goodMorning` function added to the greeting library that provides a morning-specific greeting
+- Expands the library's time-of-day greeting capabilities beyond existing functions
+- Allows developers to create more contextually appropriate user experiences based on time of day
+- Simple implementation that maintains the library's lightweight and easy-to-use design
+- Compatible with all existing greeting library implementations
+- New `salute` function added to greeting-lib for creating formal greetings
+  - Function accepts a name parameter and returns a message with "Salutations" format
+  - Creates messages in the format "Salutations, [name]!" for more formal greeting scenarios
+  - Complements existing greeting functions with a more distinguished, professional tone
