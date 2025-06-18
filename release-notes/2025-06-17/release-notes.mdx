@@ -1,11 +1,13 @@
 | slug | title | date |
 |-----------------|----------------------------|-----------------|
-| /2025-06-17 | Release 4 | 2025-06-17 |
+| /2025-06-17 | Greeting-lib v5 with new afternoon and birthday functions | 2025-06-18 |
 
-- New celebratory greeting function added with `cheers(name)` that returns "Cheers, [name]!"
-- Complements existing greeting options like salute and goodMorning functions
-- No changes to existing functionality, simply expands the available greeting types
-- Available in the latest TypeScript version of the greeting-lib
-- New goodNight function added to greeting-lib, allowing you to create personalized evening farewell messages
-- Complements the existing greeting functions with a dedicated nighttime option
-- Simple to implement in your applications with the same familiar API pattern
+- New `goodAfternoon` function added to greeting-lib
+  - Provides a dedicated method for afternoon greetings in your applications
+  - Complements existing greeting functions with time-specific messaging
+  - Helps create more contextually appropriate user experiences based on time of day
+- New `happyBirthday()` function added to generate birthday greetings
+  - Accepts an optional name parameter to personalize the message
+  - Returns a standard "Happy Birthday" greeting format
+  - Eliminates the need to manually compose birthday messages
+  - Seamlessly integrates with existing code (non-breaking change)
